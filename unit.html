@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*rem ko hum font size s chnge krskte h */
+       /*1 rem->16 px*/
+        html
+        {
+            font-size: 63.5%;
+        }
+        .body{
+            margin:0;
+        }
+        .box{
+            border:1 px solid;
+            background-color: darkgray;
+        }
+    .one{
+     /*  reltaive unit*/
+        background-color: aqua;
+        height: 200px;
+        width:200px;
+        /*overflow: auto;*/
+    }
+    .two{
+        height: 10 rem;
+        width:100rem;
+    }
+    /*view height and view width scrreen  k acc. chnage hotah h */
+    .three{
+      background-color:burlywood;
+        height: 10vh;
+        width:30vw;
+    }
+    .parent{
+        background-color: coral;
+        height:20rem;
+        width:10rem;
+    }
+    .child{
+        background-color: cyan;
+        height: 50%;
+        width:40%;
+    }
+    </style>
+</head>
+<body>
+    <!-- div ek  block level elemnt h bina content k height 0 hoti h width page jitni -->
+    <!--div m jb hum height and width dete h uske acc ho jati h -->
+    <div class="box one">
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic deserunt placeat explicabo, voluptatum delectus fugiat, dolor officiis et in iste blanditiis reprehenderit, exercitationem aliquam fuga facilis quis magni enim. Odit pariatur eligendi
+         officiis aperiam! Ducimus distinctio enim quod excepturi, deserunt quaerat rerum culpa cum id aut corrupti molestiae natus sit magnam eius consequuntur est voluptatibus numquam possimus? Nostrum quae voluptates nihil tenetur facere architecto at debitis sunt voluptate ex alias quidem, obcaecati, fugit aut perspiciatis saepe nam dolorem cum velit dolorum adipisci odit? Voluptatibus odit minus, nam error iusto illum architecto molestiae debitis deleniti quia porro vitae, omnis alias voluptas.
+    </div>
+    <div class="box two">
+
+    </div>
+    <div class="box three">
+
+
+    </div>
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+    
+</body>
+</html>
